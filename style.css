@@ -9,6 +9,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Bainga ashiglagdah */
+
+.hidden {
+    display: none;
+}
+
 #header {
     position: relative;
     height: 14%;
@@ -49,6 +55,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000;
     font-size: large;
+}
+
+#external-nav {
+    color: black;
+    background: #e9e5dd;
 }
 
 .main-showcase {
