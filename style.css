@@ -56,6 +56,10 @@ body {
     /* height: auto; */
 }
 
+.index-showcase-img {
+    width: 100%;
+}
+
 .index-showcase-welcomer {
     position: absolute;
     bottom: 5%;
