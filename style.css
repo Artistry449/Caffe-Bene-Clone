@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    position: relative;
+    height: 14%;
+    /* border: 1px solid black; */
+}
+
+#nav-top {
+    height: 30%;
+    background: #6e4605;
+}
+
+#nav-wrap {
+    height: 70%;
+    background: rgb(254, 255, 254);
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+}
+
+#caffe-bene-logo {
+    position: relative;
+    margin-left: 20%;
+}
+
+#nav-wrap ul {
+    display: flex;
+    list-style: none;
+    margin-left: 2.5%;
+}
+
+#nav-wrap ul li {
+    padding: 0 10px;
+    margin: 0 20px;
+}
+
+#nav-wrap ul li a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-size: large;
+}
+
+.main-showcase {
+    position: relative;
+    /* height: auto; */
+}
+
+.index-showcase-welcomer {
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+}
+
+.special-menu-container {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.ontsgoi-menu {
+    position: absolute;
+    left: 0;
+    top: -6px;
+    width: 157px;
+    height: 41px;
+    background: url("https://coffeeshop.blob.core.windows.net/caffebene/images/main/menu_box.png") no-repeat left top;
+    color: #fff;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.ontsgoi-menu b {
+    padding: 0 0 0 10px;
+    font-size: 1.28rem;
+}
+
+.special-menu {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+    left: 20%;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.special-menu-boxes {
+    display: flex;
+}
+
+.special-menu-box h3 {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+footer {
+    height: 8%;
+    background: #6e4605;
+}
+
+#footer-wrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100%
+}
+
+#footer-wrap img {
+    margin-left: 20%;
+    margin-right: 2%;
+    top: 50%;
+}
+
+#footer-wrap ul {
+    top: 50%;
+    list-style: none;
+    display: flex;
+    color: #fff;
+    font-size: small;
+    width: 100%;
+}
+
+#footer-wrap ul li {
+    padding-right: 1rem;
+}
+
+.global-web-btn {
+    position: relative;
+    right: 20%;
+}
