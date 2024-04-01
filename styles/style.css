@@ -15,9 +15,13 @@ body {
     display: none;
 }
 
+.mr-10 {
+    margin-right: 10px;
+}
+
 #header {
     position: relative;
-    height: 14%;
+    height: 16%;
     /* border: 1px solid black; */
 }
 
@@ -28,7 +32,7 @@ body {
 
 #nav-wrap {
     height: 70%;
-    background: rgb(254, 255, 254);
+    background: rgb(235, 237, 235);
     display: flex;
     min-height: 60px;
     align-items: center;
@@ -36,7 +40,7 @@ body {
 
 #caffe-bene-logo {
     position: relative;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 #nav-wrap ul {
@@ -47,7 +51,7 @@ body {
 
 #nav-wrap ul li {
     padding: 0 10px;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 #nav-wrap ul li a {
@@ -60,6 +64,40 @@ body {
 #external-nav {
     color: black;
     background: #e9e5dd;
+    z-index: 1;
+}
+
+#external-nav ul {
+    display: flex;
+    list-style: none;
+    /* margin-left: 1%; */
+}
+
+#external-nav ul li {
+    padding: 10px 0;
+    width: 100%;
+    margin: auto;
+    margin-left: 10px;
+
+}
+
+#external-nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#external-nav ul li a:hover {
+    color: #6e4605;
+}
+
+.vl {
+    /* background-color: #000; */
+    border: 1px solid grey;
+}
+
+#external-nav ul li ul {
+    display: flex;
+    flex-direction: column;
 }
 
 .main-showcase {
@@ -75,10 +113,11 @@ body {
     position: absolute;
     bottom: 5%;
     left: 20%;
+    height: 90%;
 }
 
 .special-menu-container {
-    width: 100%;
+    /* width: 100%; */
     /* border: 1px solid black; */
 }
 
@@ -105,7 +144,7 @@ body {
     margin-top: 2%;
     margin-bottom: 2%;
     position: relative;
-    left: 20%;
+    left: 10%;
     border: 1px solid black;
     display: inline-block;
 }
@@ -132,7 +171,7 @@ footer {
 }
 
 #footer-wrap img {
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 2%;
     top: 50%;
 }
@@ -152,5 +191,5 @@ footer {
 
 .global-web-btn {
     position: relative;
-    right: 20%;
+    right: 10%;
 }

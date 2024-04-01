@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Caffe Bene Mongolia</title>
+    <link rel="stylesheet" href="./styles/holboo_barih.css">
+    <title>Document</title>
 </head>
 
 <body>
     <div id="header">
         <div id="nav-top"></div>
         <div id="nav-wrap">
-            <a href="#" id="caffe-bene-logo"><img
+            <a href="./index.html" id="caffe-bene-logo"><img
                     src="https://coffeeshop.blob.core.windows.net/caffebene/images/common/logo.png"
                     alt="Caffe Bene logo"></a>
             <ul>
@@ -61,43 +62,95 @@
         </ul>
     </div>
 
-
-
-    <div class="container">
-        <div class="main-showcase">
-            <img src="./imgs/index-showcase.jpg" alt="index-showcase" class="index-showcase-img">
-            <img src="./imgs/main-showcase-welcomer.png" alt="index-showcase-welcome-img"
-                class="index-showcase-welcomer">
+    <br><br>
+    <div id="salbars-container">
+        <div id="salbars-container-text">
+            <h1>САЛБАРУУД</h1>
+            <!-- <h4>НҮҮР > ХОЛБОО БАРИХ > САЛБАРУУД</h4> -->
         </div>
-        <div class="special-menu-container">
-            <div class="special-menu">
-                <div class="ontsgoi-menu">
-                    <b>Онцгой цэс</b>
-                </div>
-                <br>
-                <br>
-                <div class="special-menu-boxes">
-                    <div class="special-menu-box">
-                        <h3>Кофе</h3>
-                        <img src="./imgs/special-menu-1.jpg" alt="special-menu-img">
-                    </div>
-                    <div class="special-menu-box">
-                        <h3>Уух зүйл</h3>
-                        <img src="./imgs/special-menu-2.jpg" alt="special-menu-img">
-                    </div>
-                    <div class="special-menu-box">
-                        <h3>Дессерт</h3>
-                        <img src="./imgs/special-menu-3.jpg" alt="special-menu-img">
-                    </div>
-                    <div class="special-menu-box">
-                        <h3>Каппучино</h3>
-                        <img src="./imgs/special-menu-4.jpg" alt="special-menu-img">
-                    </div>
-                </div>
-            </div>
-        </div>
+        <br>
+        <img src="./imgs/salbars-showcase.jpg" alt="">
+        <br>
+        <br>
+
     </div>
+    <br>
+    <br>
 
+    <form action="" id="tureesluuleh_form">
+
+        <table id="table_tureesluuleh">
+            <tr id="table_tureesluuleh_tr">
+                <td id="table_tureesluuleh_td">
+                    <label for="">Овог</label>
+                </td>
+                <td>
+                    <input type="text" name="ovog" class="mr-10">
+
+                </td>
+                <td>
+                    <label for="">Нэр</label>
+                </td>
+                <td>
+                    <input type="text" name="ner">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Утасны дугаар</label>
+                </td>
+                <td>
+                    <input type="tel" name="ner" class="mr-10">
+                </td>
+                <td>
+                    <label for="">Байршил:</label>
+                </td>
+                <td>
+                    <input type="text" name="bairshil" class="mr-10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Зогсоолтой эсэх</label>
+                </td>
+                <td>
+                    <input type="radio" name="zogsoolTrue">
+                    <label for="zogsoolTrue">Тийм</label>
+                    <input type="radio" name="zogsoolFalse">
+                    <label for="zogsoolFalse">Үгүй</label>
+                </td>
+                <td>
+                    <label for="tureesleh_or_hudaldah">Түрээслэх эсвэл худалдах эсэх</label>
+                </td>
+                <td>
+                    <select name="tureesleh_or_hudaldah" id="tureesleh_or_hudaldah">
+                        <option value="tureesleh">түрээслэх</option>
+                        <option value="hudaldah">худалдах</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Нэмэлт мэдээлэл</label>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit" class="submitBtn">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+    <br>
     <footer>
         <div id="footer-wrap">
             <img src="https://coffeeshop.blob.core.windows.net/caffebene/images/common/footer_logo.png"
@@ -113,7 +166,6 @@
                         alt="Caffe Bene ГЛОБАЛЬ САЙТ">
                 </a>
             </div>
-
         </div>
     </footer>
     <script src="./script.js"></script>

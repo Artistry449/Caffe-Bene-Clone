@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Salbars */
+#salbars-container {
+    display: inline-block;
+    margin-left: 10%
+}
+
+#table_salbars {
+    border-spacing: 0;
+    width: 80%;
+    margin: auto;
+}
+
+#table_salbars th,
+#table_salbars td {
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+#salbars-container-text {
+    display: flex;
+    align-items: center;
+}
+
+#salbars-container-text h1 {
+    align-self: flex-start;
+}
+
+/* holboo_barih */
+
+#tureesluuleh_form {
+    margin-left: 20%;
+    background-color: rgb(241, 208, 165);
+    width: fit-content;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#table_tureesluuleh th,
+td {
+    border: 0;
+    padding: 10px;
+}
+
+.submitBtn {
+    padding: 10px;
+}
